@@ -5,7 +5,7 @@ memories_to_store = [[-1, 1, 1, -1, 1, -1, -1, -1], [1, 1, 1, 1, 1, 1, 1, 1]]
 current_network = []
 weights = []
 
-# Initialize all neurons RANDOMLY (add controls later??)
+# Initialize all neurons RANDOMLY
 for i in range(num_neurons):
   current_network.append(random.choice([-1,1]))
 # Initialize weights based on memory pattern
